@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Aulas do Ensino Médio • Filosofia</title>
+  <link rel="stylesheet" href="../assets/css/style.css" />
+</head>
+<body>
+  
+<div class="nav">
+  <div class="container nav-inner">
+    <div class="brand">
+      <div class="logo"></div>
+      <h1>Filosofia • Prof. Divino Viana</h1>
+    </div>
+    <nav class="menu">
+      <a href="../">Início</a>
+      <a href="pages/spinoza.html">Spinoza</a>
+      <a href="pages/aulas.html">Aulas do Ensino Médio</a>
+      <a href="pages/professores.html">Materiais para Professores</a>
+      <a href="pages/contato.html">Contato</a>
+      <button id="theme-toggle" class="btn" style="margin-left:8px">Tema</button>
+    </nav>
+  </div>
+</div>
+
+  <header class="hero container">
+    <h2>Aulas do Ensino Médio</h2>
+    <p>Encontre e filtre suas aulas por série, tema e tags.</p>
+  </header>
+
+  <main class="container">
+    <div class="card">
+      <div class="row" style="margin-bottom: 12px">
+        <select id="serie" class="select">
+          <option value="todas">Todas as séries</option>
+          <option>1º ano</option>
+          <option>2º ano</option>
+          <option>3º ano</option>
+        </select>
+        <input id="tema" class="input" placeholder="Buscar por tema, título ou descrição..." />
+        <select id="tag" class="select">
+          <option value="todas">Todas as tags</option>
+          <option>Spinoza</option>
+          <option>metafísica</option>
+          <option>introdução</option>
+          <option>método</option>
+          <option>debate</option>
+          <option>liberdade</option>
+        </select>
+      </div>
+      <p style="color:var(--muted); margin-top:0">Total de aulas: <strong id="lessons-count">0</strong></p>
+      <div class="grid" id="lessons-list" style="gap:12px"></div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">Aulas — organize por série e tema. Para adicionar novas aulas, edite <code>data/lessons.json</code>.</div>
+  </footer>
+
+  <script src="../assets/js/main.js"></script>
+  <script src="../assets/js/lessons.js"></script>
+</body>
+</html>

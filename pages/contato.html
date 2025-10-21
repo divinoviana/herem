@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contato • Filosofia</title>
+  <link rel="stylesheet" href="../assets/css/style.css" />
+</head>
+<body>
+  
+<div class="nav">
+  <div class="container nav-inner">
+    <div class="brand">
+      <div class="logo"></div>
+      <h1>Filosofia • Prof. Divino Viana</h1>
+    </div>
+    <nav class="menu">
+      <a href="../">Início</a>
+      <a href="pages/spinoza.html">Spinoza</a>
+      <a href="pages/aulas.html">Aulas do Ensino Médio</a>
+      <a href="pages/professores.html">Materiais para Professores</a>
+      <a href="pages/contato.html">Contato</a>
+      <button id="theme-toggle" class="btn" style="margin-left:8px">Tema</button>
+    </nav>
+  </div>
+</div>
+
+  <header class="hero container">
+    <h2>Contato</h2>
+    <p>Envie uma mensagem ou sugestão de material.</p>
+  </header>
+
+  <main class="container grid">
+    <section class="card span-12">
+      <h3>Formulário simples</h3>
+      <p>Você pode integrar um formulário do Google Forms aqui. Enquanto isso, este formulário envia um e-mail via link.</p>
+      <form onsubmit="event.preventDefault(); window.location.href = 'mailto:seuemail@exemplo.com?subject=' + encodeURIComponent(document.getElementById('assunto').value) + '&body=' + encodeURIComponent(document.getElementById('mensagem').value);">
+        <div class="row">
+          <input class="input" id="assunto" placeholder="Assunto" required />
+        </div>
+        <div class="row">
+          <textarea class="input" id="mensagem" placeholder="Escreva sua mensagem..." rows="6" required></textarea>
+        </div>
+        <button class="btn" type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">Contato — substitua por um Google Forms se preferir.</div>
+  </footer>
+
+  <script src="../assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+[
+  {
+    "titulo": "Introdução à Filosofia: o que é filosofar?",
+    "descricao": "Aula de abertura com conceitos básicos e exercício de problematização.",
+    "serie": "1º ano",
+    "tags": [
+      "introdução",
+      "método",
+      "debate"
+    ],
+    "recursos": [
+      {
+        "label": "Plano de Aula (PDF)",
+        "url": "https://example.com/plano-introducao.pdf"
+      },
+      {
+        "label": "Slides (Google)",
+        "url": "https://example.com/slides-introducao"
+      }
+    ]
+  },
+  {
+    "titulo": "Spinoza: substância, atributos e modos",
+    "descricao": "Conceitos centrais da Ética e leituras comentadas.",
+    "serie": "2º ano",
+    "tags": [
+      "Spinoza",
+      "metafísica"
+    ],
+    "recursos": [
+      {
+        "label": "Resumo Ética I",
+        "url": "https://example.com/etica1-resumo"
+      },
+      {
+        "label": "Texto base",
+        "url": "https://example.com/etica-texto"
+      }
+    ]
+  },
+  {
+    "titulo": "Liberdade em Spinoza",
+    "descricao": "Necessidade, conatus e a noção de liberdade como compreensão das causas.",
+    "serie": "3º ano",
+    "tags": [
+      "Spinoza",
+      "liberdade"
+    ],
+    "recursos": [
+      {
+        "label": "Atividade (DOCX)",
+        "url": "https://example.com/atividade-liberdade.docx"
+      }
+    ]
+  }
+]
